@@ -41,7 +41,7 @@ export default function Hero() {
             <h1 className="text-4xl font-bold mb-4">IWATA HOTAKA</h1>
             <p className="text-lg mb-6">Front-end Developer Portfolio</p>
             <a
-              href="/resume.pdf"
+              href="./resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-white text-slate-900 px-6 py-2 rounded font-semibold shadow-md hover:bg-gray-200 transition"
@@ -60,7 +60,7 @@ export default function Hero() {
                 <div className="w-3 h-3 bg-green-500 rounded-full"></div>
               </div>
               <img
-                src="/images/code.png"
+                src="./images/code.png" // ✅ ここを修正（/images → ./images）
                 alt="Code Example"
                 className="rounded-b-md w-full object-cover"
               />
